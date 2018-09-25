@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family>
+
+    <font
+        face='Impact'
+        gradient='0, 1, White, Navy'
+        shadowfadelength='10'
+        shadowoffset='10, 10'
+        size='33' />
+
+    <font shadowtype='solid'>Solid Shadow</font>
+
+    <font shadowtype='linearblur'>Linear Blur Shadow</font>
+
+    <font shadowtype='radialblur'>Radial Blur Shadow</font>
+
+    <font shadowtype='gaussianblur'>Gaussian Blur Shadow</font>
+</font-family>

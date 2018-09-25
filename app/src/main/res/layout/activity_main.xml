@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="ABOUT MYSELF"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="330dp"
+        android:layout_height="180dp"
+        android:src="@drawable/nurul" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="NAME : NURUL MADIHAH BINTI MD NOOR"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : A11.2018.90018"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS :KUALA TERENGGANU, MALAYSIA"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOBBY : PLAYING BADMINTON"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#dbd7d2"
+        android:onClick="callNumber"
+        android:text="Phone"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#dbd7d2"
+        android:onClick="openUrl"
+        android:text="Open Url"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#dbd7d2"
+        android:fontFamily="sans-serif"
+        android:onClick="showMap"
+        android:text="Show Map"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
