@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
     }
 
-    public void showMap(View view) {
-        Uri uri = Uri.parse("geo:5.332609, 103.142459");
+    public void showMap(View v) {
+        Uri uri = Uri.parse("geo:0,0?q=5.2867069, 103.1722929");
         Intent it = new Intent(android.content.Intent.ACTION_VIEW, uri);
         startActivity(it);
     }
